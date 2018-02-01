@@ -64,11 +64,11 @@ $(function() {
          menuIcon = $('.menu-icon-link');
 
          // Clicks to reveal menu
-         menuIcon.click()
+         menuIcon.click();
          expect($('body').hasClass('menu-hidden')).toBe(false);
 
          // Clicks to hide menu
-         menuIcon.click()
+         menuIcon.click();
          expect($('body').hasClass('menu-hidden')).toBe(true);
        });
 
